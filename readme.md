@@ -90,3 +90,54 @@
 ### Prerequisites
 ```bash
 Python 3.7 or higher
+
+# Clone the repository
+git clone https://github.com/yourusername/advanced-calculator-cli.git
+cd advanced-calculator-cli
+
+# No external dependencies required!
+# Uses only Python built-in modules:
+# - math
+# - json
+# - datetime
+# - os
+
+python calculator_cli.py
+
+# Start the calculator
+python calculator_cli.py
+
+# You'll see:
+🚀 ADVANCED UNIVERSAL CALCULATOR (CLI)
+============================================================
+📌 Type 'help' for commands, 'exit' to quit
+============================================================
+
+============================================================
+📋 MAIN MENU
+============================================================
+1. 🧮 Basic Calculator
+2. 🔬 Scientific Calculator
+3. 📏 Unit Converter
+4. 🔢 Number System Converter
+5. 📜 View History
+6. 💰 Currency Exchange Rates
+7. 🆘 Help
+8. 🚪 Exit
+============================================================
+
+👉 Enter your choice (or command):
+
+👉 Enter your choice: 3
+
+📏 UNIT CONVERTER
+Format: <value> <from_unit> <to_unit>
+Example: 100 cm ft
+Units: cm, m, km, ft, in, yd, mile
+       g, kg, lb, oz, ton
+       °C, °F, K
+Convert: 100 cm ft
+✅ 100.0 cm = 3.2808 ft
+
+👉 Enter your choice: convert 100 cm ft
+✅ 100.0 cm = 3.2808 ft
